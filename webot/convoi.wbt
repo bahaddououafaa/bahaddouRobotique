@@ -1,0 +1,78 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  info [
+    ""
+  ]
+  basicTimeStep 10
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0 1 0 0
+  position 0.0003051560168736854 -0.030003585822543533 6.007092879150768
+  follow "thymio2"
+}
+DirectionalLight {
+  ambientIntensity 1
+  color 1 1 0.8999999999999999
+  intensity 2
+  castShadows TRUE
+  castLensFlares TRUE
+}
+RectangleArena {
+  translation 0 -0.1 -3.6732e-07
+  rotation 1 0 0 1.5708
+  floorSize 2 2
+  floorTileSize 1 1
+  floorAppearance PBRAppearance {
+    baseColor 0.741176 0.784314 0.65098
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+  wallAppearance BrushedAluminium {
+    colorOverride 1 0.666667 0.498039
+  }
+}
+SolidBox {
+  translation 0 -0.01 0
+  size 0.3 0.3 0.3
+}
+Thymio2 {
+  hidden position_0_0 66.39194773967772
+  hidden position_0_1 58.351973407081935
+  translation -0.002458 0.591538 -0.000493148
+  rotation 0.9972202192544943 -0.05243584070927466 -0.052936914522190855 1.564078366094153
+  name "Obs"
+  controller "obs"
+  bodySlot [
+    Thymio2Pen {
+    }
+  ]
+}
+Thymio2 {
+  hidden position_0_0 29.099999722286128
+  hidden position_0_1 29.09999895472196
+  translation 0.000108651 0.713787 -0.000492699
+  rotation 0.9999999998361918 -1.2696401900941136e-05 -1.2900286829711863e-05 1.561294802899973
+  name "Timid2"
+  controller "timid2"
+}
+Thymio2 {
+  hidden position_0_0 30.509999833111088
+  hidden position_0_1 30.50999900448453
+  translation -2.06136e-05 0.839431 -0.000587289
+  rotation 0.9999999998309713 -1.289779245320421e-05 -1.3103601541981926e-05 1.5612948029052098
+  name "Timid"
+  controller "timid"
+}
