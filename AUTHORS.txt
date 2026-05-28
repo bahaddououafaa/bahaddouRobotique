@@ -1,0 +1,11 @@
+****************Projet Webots*****************************************
+
+Pour le projet Webots : Je suis resté  seul
+
+
+
+*******************Projet Thymio physique****************************
+Membres du Groupe : Karl AVOCE && Ouafaa  BAHADDOU
+Pour le Projet Thymio Physique : Membres du Groupe : Karl AVOCE && Ouafaa  BAHADDOU
+
+Fichiers -> Projet Thymio Physique: C'est le fichier dans la partie Seance 4 où se trouve la vidéo du convoi et le fichier python convoi.py
